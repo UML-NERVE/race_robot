@@ -1,4 +1,4 @@
-[200~#include <algorithm>
+#include <algorithm>
 #include <cmath>
 #include <geometry_msgs/Twist.h>
 #include <iostream>
@@ -71,15 +71,8 @@ right();
         left();
     }
 } else if (front > 2.3 && leftFront < 2 && rightFront < 2) {
-mov();
-}
-
-
-
-
-
-
-cout << " front : " << front << " right: " << rightFront << " left: " << leftFront << " right Range: " << rightRange << " left Range: " << leftRange;
+    mov();
+    }
 }
 
 int main(int argc, char **argv) {
@@ -93,5 +86,4 @@ int main(int argc, char **argv) {
    
 
     ros::spin();
-
 }
