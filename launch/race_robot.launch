@@ -1,0 +1,7 @@
+<launch>
+
+    <!-- My Package launch file -->
+
+    <node pkg = "race_robot" type = "race_robot_node" name = "Racer" output = "screen" />
+
+</launch>
